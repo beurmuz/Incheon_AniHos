@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+    <title>인천 동물병원 찾아조</title>
+    <script defer src="./map.js"></script>
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <div class="toolbar">
+       <div class="toolbar content"><a href="./notice.html"> 공지가 있어요 ! </a></div>
+       <button class="toolbar closeBtn" id="closeId" onclick="deleteToolbar()">x</button> 
+    </div>
+    <header>
+        <h1><a href="./index.html">인천 동물병원 찾아주<i class="fas fa-dog"></i></a></h1>
+    </header>
+    <nav>
+        <div class="search-box">
+            <form class="search-border" name=fsearch method=get action="http://search.naver.com/search.naver" target="_blank">
+                <input class="search-input" name=query itemname="검색어" required value="" type="text" placeholder="네이버에 검색해보기">
+                <button class="search-btn">search</button>
+            </form>
+    </nav>
+    <main>
+        <div id="map-box">
+            <div class="folium-map" id="map_5f6b3c1b1d554d4cb6c8413f0b648a17" ></div>
+        </div>
+        <div>
+            <input class="darkModeBtn" type="button" value="☁️" onclick="darkmode(this);">
+        </div>
+    </main>
+    <footer>
+        <p>Developer: beurmuz, Email: <a id="email" href="mailto:fallinta2@gmail.com">fallinta2@gmail.com</a> <br>
+            Copyright ⓒ 2021.Jang Seo Ryeong. All rights reserved.</p>
+    </footer>
+    
+</body>
+<script>
+
+</script>
