@@ -91,7 +91,7 @@ h1 a:hover {
 }
 
 .search-input {
-    flex: 2;
+    flex: 6;
     border: solid 1px white;
 }
 
@@ -103,7 +103,8 @@ h1 a:hover {
     color: white;
     border: solid 1px white;
     background-color: rgb(135, 201, 37);
-    width: 80px;
+    /* width: 80px; */
+    flex: 1;
 }
 
 .darkModeBtn {
@@ -130,4 +131,14 @@ footer {
     background-color: beige;
     text-align: center;
     height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .search-input {
+        flex: 4;
+    }
+
+    .search-btn {
+        flex: 1;
+    }
 }
