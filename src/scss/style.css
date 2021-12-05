@@ -1,0 +1,171 @@
+.js #fouc {
+  display: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#map_5f6b3c1b1d554d4cb6c8413f0b648a17 {
+  position: relative;
+  width: 100.0%;
+  height: 100.0%;
+  left: 0.0%;
+  top: 0.0%;
+}
+
+#map-box {
+  padding: 10px 20px;
+  width: 100%;
+  height: 450px;
+}
+
+.toolbar {
+  font-size: 17px;
+  font-family: 'Gaegu', cursive;
+  padding: 3px;
+  background-color: #7dc593;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toolbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.toolbar .content {
+  -webkit-box-flex: 9.5;
+      -ms-flex: 9.5;
+          flex: 9.5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toolbar .closeBtn {
+  border: 0px;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toolbar .closeBtn:hover {
+  background-color: #9ac7a7;
+  cursor: pointer;
+}
+
+header {
+  padding: 15px;
+  font-family: 'Gaegu', cursive;
+  text-align: center;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* border: 2px solid red; */
+  padding: 10px 20px;
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
+}
+
+.search-box .search-border {
+  padding: 5px 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid #87c925;
+}
+
+.search-box .search-input {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  border: solid 1px white;
+}
+
+.search-box .search-input:focus {
+  outline: none;
+}
+
+.search-box .search-btn {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  border: solid 1px white;
+  background-color: #87c925;
+  /* width: 80px; */
+}
+
+@media screen and (max-width: 700px) {
+  .search-input {
+    -webkit-box-flex: 1.7;
+        -ms-flex: 1.7;
+            flex: 1.7;
+  }
+  .search-btn {
+    -webkit-box-flex: 1.3;
+        -ms-flex: 1.3;
+            flex: 1.3;
+  }
+  .search-box {
+    font-size: 1.5rem;
+  }
+}
+
+.darkModeBtn {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 3rem;
+  right: 30px;
+  z-index: 0;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+footer {
+  font-family: 'Gaegu', cursive;
+  font-size: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.notice-content {
+  padding: 20px;
+  background-color: beige;
+  text-align: center;
+  height: 600px;
+}
+/*# sourceMappingURL=style.css.map */
