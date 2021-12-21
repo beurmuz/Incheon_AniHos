@@ -31,9 +31,11 @@
 
 - 기능
   1. 지도 zoom in-out을 통해 병원의 주소와 전화번호 정보를 얻을 수 있음
+   
    ![지도](./images/md04.JPG)
 
   2. ☁과 🌞버튼을 통한 배경색 전환
+   
    ![다크모드](./images/md03.JPG)
 
 <br>
@@ -42,3 +44,6 @@
 - 검색란에 병원 검색 시, 지도에서 바로 보여줄 수 있게끔 개선할 예정
 - folium사용이 아닌 구글이나 네이버 지도 API를 적용해볼 예정 
 - 새로운 병원 정보가 업데이트 될 시, 자동으로 적용될 수 있도록 할 예정
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbeurmuz%2FIncheon_AniHos&count_bg=%23E0528A&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=VIEWS&edge_flat=true)](https://hits.seeyoufarm.com)
